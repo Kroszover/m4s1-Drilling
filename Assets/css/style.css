@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+
+#cajaform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(246, 243, 243);
+}
+
+#cajaform input[type="text"], #cajaform input[type="email"], #cajaform textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#cajaform textarea {
+    width: 100%;
+    height: 100px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(34, 198, 94);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
