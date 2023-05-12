@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUESTROBANK</title>
+    <link rel="stylesheet" href="/Assets/css/style.css">
+</head>
+<body>
+    <h1>Contáctanos</h1>
+    <div id="cajaform">
+<form>
+  <div>
+    <label for="nombre">Nombre *:</label>
+    <input type="text" id="nombre" required>
+  </div>
+  <div>
+    <label for="apellido">Apellido *:</label>
+    <input type="text" id="apellido" required>
+  </div>
+  <div>
+    <label for="email">Email *:</label>
+    <input type="email" id="email" required>
+  </div>
+  <div>
+    <label for="motivo">Por favor especifique el motivo *:</label>
+    <select id="motivo">
+      <option value="problemas">Problemas con su cuenta online</option>
+      <option value="contraseña">Reestablecer contraseña</option>
+      <option value="atención">Solicitud de atención al cliente</option>
+      <option value="otro">Otro</option>
+    </select>
+  </div>
+  <div>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" required></textarea>
+  </div>
+  <button type="submit">Enviar Mensaje</button>
+</form>
+</div>
+    <script src="/Assets/js/script.js"></script>
+</body>
+</html>
